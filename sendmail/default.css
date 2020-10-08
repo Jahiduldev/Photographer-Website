@@ -1,0 +1,89 @@
+
+.paging_link{
+		width:100%; 
+		height:20px; 
+		margin:1% auto 1% auto; 
+		text-align:center; 
+		color:#999; 
+		/*border:1px green solid; */
+		font-size:16px; 
+		font-family:'Lucida Console', Monaco, monospace;
+		
+	}
+	
+.a_bg{
+	background:url(../images/button.png) no-repeat;
+	margin: auto 5px auto 5px;
+			
+	}
+	
+.a_bg_inac{
+		background:#CCC;
+	}
+
+.paging_link a{
+		
+		color:#000; 		
+	}
+
+#menu{
+	margin:  -8px auto auto -8px;
+	padding: 0 0 0 0 ;
+	border-top:1px #000 solid;
+	width:101%;
+	height:25px;
+	background:url(../images/title.png) repeat-x;
+	
+	}
+	
+#sddm
+{	margin:  auto auto auto auto;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 6px;
+	width: 60px;
+	background: url(../images/title.png) repeat-x;
+	color: #FFF;
+	text-align: left;
+	text-decoration: none;
+	font-size:14px;}
+
+#sddm li a:hover
+{	text-decoration:underline;}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: url(../images/dropdown.png) repeat;
+		color: #000;
+		font: 11px arial;
+		}
+
+	#sddm div a:hover
+	{	
+		color: #000}
